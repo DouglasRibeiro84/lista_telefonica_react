@@ -33,7 +33,7 @@ const contatosSlice = createSlice({
       )
 
       if (contatoJaExiste) {
-        alert('Ja tem esse numero caraio')
+        alert('Numero já existente')
       } else {
         const ultimoContato = state.itens[state.itens.length - 1]
 
